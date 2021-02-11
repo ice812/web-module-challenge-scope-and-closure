@@ -43,6 +43,8 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+Closure is a function that can access an outer or parent function even if he outer function has returned.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +66,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+Closure is used in the two const peraonalDice and you can tell becuase it's getting data from above function.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+dansRoll is the same because the name Dan is the same. newRoll could change the outcome because of the math operator.
+
 c. What is the lexical scope of `newRoll`? 
+It access the const outside the function
 
 
 ### Task 3 - Stretch Goals
